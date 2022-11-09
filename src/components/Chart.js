@@ -1,9 +1,9 @@
-import React from 'react';
-import ChartRow from './ChartRow';
+import React from "react";
+import ChartRow from "./ChartRow";
 
 let tableRowsData = [
     {
-        Title: 'FIFA 23 ',
+        Title: "FIFA 23 ",
         Length: ["PS4 / PS5 / XBOX ONE"],
         Rating: "Deporte",
         Categories: ["1 Jugador", "Multijugador"],
