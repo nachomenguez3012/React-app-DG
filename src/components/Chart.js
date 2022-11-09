@@ -4,14 +4,14 @@ import ChartRow from './ChartRow';
 let tableRowsData = [
     {
         Title: 'FIFA 23 ',
-        Length: ["PS4", "PS5", "XBOX ONE"],
+        Length: ["PS4 / PS5 / XBOX ONE"],
         Rating: "Deporte",
         Categories: ["1 Jugador", "Multijugador"],
         Awards: "Español",
     },
     {
         Title: "Grand Theft Auto V",
-        Length: ["PS3", "PS4", "PS5", "XBOX ONE", "XBOX 360"],
+        Length: ["PS3 / PS4 / PS5 / XBOX ONE /XBOX 360"],
         Rating: "Accion / Disparos / Aventura",
         Categories:  ["1 Jugador", "Multijugador"],
         Awards:  ["Español", "Ingles"],

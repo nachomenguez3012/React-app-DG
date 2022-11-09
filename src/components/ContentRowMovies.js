@@ -6,7 +6,7 @@ import SmallCard from './SmallCard';
 /* <!-- Movies in DB --> */
 
 let moviesInDB = {
-    title: 'Productos en la base de datos',
+    title: 'Productos  total en la base de datos',
     color: 'primary', 
     cuantity: 50,
     icon: 'fa-clipboard-list'
@@ -15,7 +15,7 @@ let moviesInDB = {
 /* <!-- Total awards --> */
 
 let totalAwards = {
-    title:' Total de categorias', 
+    title:' Total de categorias en la base de datos', 
     color:'success', 
     cuantity: '10',
     icon:'fa-award'
@@ -24,7 +24,7 @@ let totalAwards = {
 /* <!-- Actors quantity --> */
 
 let actorsQuantity = {
-    title:'Total de usuarios' ,
+    title:'Total de usuarios en la base de datos' ,
     color:'warning',
     cuantity:'4',
     icon:'fa-user-check'
@@ -35,7 +35,7 @@ let cartProps = [moviesInDB, totalAwards, actorsQuantity];
 function ContentRowMovies(){
     return (
     
-        <div className="row">
+        <div className="row d-flex align-items-start">
             
             {cartProps.map( (movie, i) => {
 
