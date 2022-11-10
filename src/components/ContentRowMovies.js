@@ -8,7 +8,7 @@ import SmallCard from './SmallCard';
 let moviesInDB = {
     title: 'Productos  total en la base de datos',
     color: 'primary', 
-    cuantity: 50,
+    cuantity: 30,
     icon: 'fa-clipboard-list'
 }
 
